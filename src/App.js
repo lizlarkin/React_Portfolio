@@ -1,23 +1,24 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Nav from './Components/Nav/Nav';
-import About from './Components/Pages/About';
-import Home from './Components/Pages/Home';
-import Links from './Components/Pages/Links';
-import Portfolio from './Components/Pages/Portfolio';
-import Resume from './Components/Pages/Resume';
+import About from './Pages/About';
+import Home from './Pages/Home';
+import Links from './Pages/Links';
+import Portfolio from './Pages/Portfolio';
+import Resume from './Pages/Resume';
 
 function App() {
+
   return (
     <div className="App">
       <BrowserRouter>
         <Nav />
         <Switch>
-          <Route path="/Home" component={Home} />
-          <Route path="/About" component={About} />
-          <Route path="/Links" component={Links} />
-          <Route path="/Portfolio" component={Portfolio} />
-          <Route path="/Resume" component={Resume} />
+          <Route path="/src/Pages/Home" component={Home} />src\Pages\Home.js
+          <Route path="/src/Pages/About" component={About} />
+          <Route path="/src/Pages/Links" component={Links} />
+          <Route path="/src/Pages/Portfolio" component={Portfolio} />
+          <Route path="/src/Pages/Resume" component={Resume} />
         </Switch>
       </BrowserRouter>
 
