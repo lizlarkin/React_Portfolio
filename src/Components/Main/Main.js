@@ -18,12 +18,12 @@ const Main = () => {
         },
 
         mainCenterStyles: {
-            backgroundImage: "url('src/assets/main-center.png')",
+            backgroundImage: `url${require('../../assets/main-center.png')}`,
             backgroundRepeat: "no-repeat",
         },
 
         mainRightStyles: {
-            backgroundImage: "url('../assets/main-right.png')",  
+            backgroundImage: "url('../../assets/main-right.png')",  
             backgroundRepeat: "no-repeat",
         },
 
