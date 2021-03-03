@@ -23,7 +23,7 @@ const Portfolio = () => {
                 <h3 style={portfolioStyles.projectTitle}>Dog Blog</h3>
                 <div className = "row">
                 <div className = "col-sm-5">
-                  <img src="assets/dog_blog.png" alt="Dog Blog Screenshot"/>
+                  <img src="/img/dogBlog.png" alt="Dog Blog Screenshot"/>
                 </div>
                 <div className = "col-sm-5 right">
                   <h6> Uses Sequelize, Pug, Google Maps API, etc. to create blog geared towards dogs </h6>
@@ -45,7 +45,7 @@ const Portfolio = () => {
               <h3>Eat Da Burger</h3>
               <div className = "row">
               <div className = "col-sm-5">
-                <img src="assets/burger.png" alt="Eat Da Burger Screenshot"/>
+                <img src="/img/burger.png" alt="Eat Da Burger Screenshot"/>
               </div>
               <div className = "col-sm-5 right">
                 <h6> Input and "devour" burger types on front-end, while back end manages/stores burger data </h6>
@@ -67,7 +67,7 @@ const Portfolio = () => {
                   <h3>Weather App</h3>
                   <div className = "row">
                   <div className = "col-sm-5">
-                      <img src="assets/weather_app.png" alt="Weather App"/>
+                      <img src="/img/weather_app.png" alt="Weather App"/>
                   </div>
                   <div className = "col-sm-5 right">
                     <h6> Dynamic weather app using data from Open Weather API </h6>
@@ -89,7 +89,7 @@ const Portfolio = () => {
               <h3>Employee Tracker</h3>
               <div className = "row">
               <div className = "col-sm-5">
-                <img src="assets/employee_tracker.png" alt="Employee Tracker Screenshot"/>
+                <img src="/img/employee_tracker.png" alt="Employee Tracker Screenshot"/>
               </div>
               <div className = "col-sm-5 right">
                 <h6> Uses Inquirer and MySQL to view and modify employee names, departments, and roles through CLI </h6>
@@ -111,7 +111,7 @@ const Portfolio = () => {
               <h3>API Project</h3>
               <div className = "row">
               <div className = "col-sm-5">
-                <img src="assets/api_project.png" alt="API Project Screenshot"/>
+                <img src="/img/api_project.png" alt="API Project Screenshot"/>
               </div>
               <div className = "col-sm-5 right">
                 <h6> Uses Foundation, Open Weather API, Smarty Streets API, and COVID Now API to connect and display data </h6>
@@ -133,7 +133,7 @@ const Portfolio = () => {
               <h3>Team Profile Generator</h3>
               <div className = "row">
               <div className = "col-sm-5">
-                <img src="assets/team_generator.png" alt="Team Profile Generator Screenshot"/>
+                <img src="/img/team_generator.png" alt="Team Profile Generator Screenshot"/>
               </div>
               <div className = "col-sm-5 right">
                 <h6> Respond to CLI prompts about professional team members to dynamically generate organizational-chart-esque HTML file </h6>
@@ -155,7 +155,7 @@ const Portfolio = () => {
               <h3>Password Generator</h3>
               <div className = "row">
               <div className = "col-sm-5">
-                <img src="assets/password.png" alt="Password Generator Screenshot"/>
+                <img src="/img/password.png" alt="Password Generator Screenshot"/>
               </div>
               <div className = "col-sm-5 right">
                 <h6> Automatically generate and display password based on user preferences </h6>
@@ -177,7 +177,7 @@ const Portfolio = () => {
               <h3>README Generator</h3>
               <div className = "row">
               <div className = "col-sm-5">
-                <img src="assets/readme.png" alt="Readme Generator Screenshot"/>
+                <img src="/img/mainLeft.png" alt="Liz, Aaron, Donner wedding"/>
               </div>
               <div className = "col-sm-5 right">
                 <h6> Command-line readme guide that adds content to Markdown file </h6>
