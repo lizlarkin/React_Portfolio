@@ -21,13 +21,13 @@ const Links = () => {
                 <div className="col-sm-2"></div>
                 <div className="col-sm-8" id = "links-div" style={linkStyles}>
                 <div className = "link">
-                    <a href = "https://github.com/lizlarkin" target="_blank">GitHub</a>
+                    <a href = "https://github.com/lizlarkin" target="_blank" rel="noreferrer">GitHub</a>
                 </div>
                 <div className = "link">
-                    <a href = "https://www.linkedin.com/in/larkinelizabeth" target="_blank">LinkedIn</a>
+                    <a href = "https://www.linkedin.com/in/larkinelizabeth" target="_blank" rel="noreferrer">LinkedIn</a>
                 </div>
                 <div className = "link">
-                    <a href = "https://www.highlandtechnology.com/" target="_blank">Highland Technology</a>
+                    <a href = "https://www.highlandtechnology.com/" target="_blank" rel="noreferrer">Highland Technology</a>
                 </div>
                 </div>
                 <div className="col-sm-2"></div>
