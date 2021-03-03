@@ -1,4 +1,5 @@
 import React from 'react'
+// import mainCenter from '../../public/img/mainCenter.png'  
 
 const Main = () => {
 
@@ -10,21 +11,6 @@ const Main = () => {
 
         mainRowStyles: {
             height: "500px"
-        },
-
-        mainLeftStyles: {
-            backgroundImage: "url('main-left.png')",
-            backgroundRepeat: "no-repeat",
-        },
-
-        mainCenterStyles: {
-            backgroundImage: `url${require('../../assets/main-center.png')}`,
-            backgroundRepeat: "no-repeat",
-        },
-
-        mainRightStyles: {
-            backgroundImage: "url('../../assets/main-right.png')",  
-            backgroundRepeat: "no-repeat",
         },
 
         basicInfoStyles: {
@@ -41,17 +27,19 @@ const Main = () => {
 <div style = {mainHeadStyles.backgroundStyles} class="container">
 {/* <!-- Basic Information Row --> */}
 <div class="row" id = "main-row" style={mainHeadStyles.mainRowStyles}>
-  <div class="col-sm-4" id = "main-left" style={mainHeadStyles.mainLeftStyles}></div>
-  <div class="col-sm-4" id = "main-center" style={mainHeadStyles.mainCenterStyles}>
-    <div id = "basic-info" style={mainHeadStyles.basicInfoStyles}>
-    <h1>Liz Larkin</h1>
-    <h4>San Francisco, CA</h4>
-    <h4>enlarkin@gmail.com</h4>
-    <h4>415-551-1700</h4>
-    </div>
-  </div>
-  <div class="col-sm-4" id = "main-right" style={mainHeadStyles.mainRightStyles}>
 
+  <div class="col-sm-4" id = "main-left" style={mainHeadStyles.mainLeftStyles}>
+    <img src="/img/mainLeft.png" alt="Liz, Aaron, Donner wedding picture"/>
+  </div>
+
+
+  <div class="col-sm-4" id = "main-center" style={mainHeadStyles.mainCenterStyles}>
+  <img src="/img/mainCenter.png" alt="Background Image to hold contact info"/>
+    <div id = "basic-info" style={mainHeadStyles.basicInfoStyles}></div>
+  </div>
+
+  <div class="col-sm-4" id = "main-right" style={mainHeadStyles.mainRightStyles}>
+    <img src="/img/mainRight.png" alt="Liz face picture"/>
   </div>
 </div>
 </div>
