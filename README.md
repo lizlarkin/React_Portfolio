@@ -1,5 +1,5 @@
 # Professional React Portfolio
-Input and "devour" burger types on front-end, while back end manages/stores burger data
+A remake of my professional portfolio using React.
 
 ## Installation:
 This project uses React, Bootstrap, and react-router-dom library.   
