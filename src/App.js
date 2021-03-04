@@ -31,7 +31,7 @@ function App() {
         <div style = {commonStyles.containerStyles} class="container">
 
         <Switch>
-          <Route path="/src/Pages/Home" component={Home} />src\Pages\Home.js
+          <Route path="/src/Pages/Home" component={Home} />
           <Route path="/src/Pages/About" component={About} />
           <Route path="/src/Pages/Links" component={Links} />
           <Route path="/src/Pages/Portfolio" component={Portfolio} />
