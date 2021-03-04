@@ -41,7 +41,7 @@ function App() {
         </div>
 
         <nav className="navbar navbar-light bg-dark justify-content-center" style={commonStyles.footerStyles}>
-            <p id>&#169; copyright 2020</p>
+            <p id>&#169; copyright 2021</p>
         </nav>
 
       </BrowserRouter>

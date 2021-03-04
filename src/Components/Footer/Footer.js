@@ -9,7 +9,7 @@ const Footer = () => {
     return (
         <Footer>
         <nav className="navbar fixed-bottom navbar-light bg-dark" style={footerStyles}>
-            <p id = "footer">&#169; copyright 2020</p>
+            <p id = "footer">&#169; copyright 2021</p>
         </nav>
       </Footer>
     )
