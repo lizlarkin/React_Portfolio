@@ -9,17 +9,27 @@ import Resume from './Pages/Resume';
 
 function App() {
 
-  const footerStyles = {
+  const commonStyles = {
+  footerStyles: {
     color: "white",
-    fontWeight: "bold"
-}
+    fontWeight: "bold",
+    bottom: "0",
+    width: "100%"
+  },
 
+  containerStyles: {
+        backgroundImage: "url(https://img.freepik.com/free-photo/brick-wall_1154-638.jpg?size=626&ext=jpg)",
+        minHeight: "100vh"
+  }
+}
 
   return (
     <div className="App">
       <BrowserRouter>
         <Nav />
- 
+
+        <div style = {commonStyles.containerStyles} class="container">
+
         <Switch>
           <Route path="/src/Pages/Home" component={Home} />src\Pages\Home.js
           <Route path="/src/Pages/About" component={About} />
@@ -28,14 +38,17 @@ function App() {
           <Route path="/src/Pages/Resume" component={Resume} />
         </Switch>
 
-        <nav className="navbar navbar-light bg-dark justify-content-center" style={footerStyles}>
-            <p id = "footer" style={footerStyles.pStyles}>&#169; copyright 2020</p>
+        </div>
+
+        <nav className="navbar navbar-light bg-dark justify-content-center" style={commonStyles.footerStyles}>
+            <p id>&#169; copyright 2020</p>
         </nav>
 
       </BrowserRouter>
 
 
     </div>
+
   );
 }
 
