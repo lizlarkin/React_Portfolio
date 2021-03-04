@@ -12,18 +12,12 @@ const Main = () => {
             height: "500px"
         },
 
-        basicInfoStyles: {
-            marginTop: "225px",
-            textAlign: "center",
-            color: "#3c6382",
-        },
-
         }
     
     return (
 <>
 
-<div style = {mainHeadStyles.backgroundStyles} class="container">
+
 {/* <!-- Basic Information Row --> */}
 <div class="row" id = "main-row" style={mainHeadStyles.mainRowStyles}>
 
@@ -41,7 +35,7 @@ const Main = () => {
     <img src="/img/mainRight.png" alt="Liz face"/>
   </div>
 </div>
-</div>
+
 </>
     )}
 
