@@ -14,7 +14,6 @@ const About = () => {
 
     return (
         <div>
-            <h1>About</h1>
             <Main />
             <div className="row">
             <div className="col-sm-2"></div>

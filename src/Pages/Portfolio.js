@@ -31,7 +31,6 @@ const Portfolio = () => {
 
     return (
             <>
-            <h1>Portfolio</h1>
             <Home />
             <div className="row" id= "portfolio-section">
             <div className = "col-sm-12">

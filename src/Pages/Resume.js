@@ -30,7 +30,6 @@ const Resume = () => {
 
     return (
         <div>
-            <h1>Resume</h1>
             <Home />
             <div className="row">
             <div className="col-sm-2"></div>

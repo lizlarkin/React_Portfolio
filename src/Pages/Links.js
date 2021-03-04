@@ -15,9 +15,8 @@ const Links = () => {
 
     return (
         <div>
-            <h1>Links</h1>
             <Home />
-            <div className="row">
+            <div className="row" style={{height: "35vh"}}>
                 <div className="col-sm-2"></div>
                 <div className="col-sm-8" id = "links-div" style={linkStyles}>
                 <div className = "link">

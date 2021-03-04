@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
     const footerStyles = {
-        color: "white !important",
-        marginRight: "auto !important",
-        marginLeft: "auto !important"
+        color: "white",
+        marginRight: "auto",
+        marginLeft: "auto"
     }
     return (
         <Footer>
