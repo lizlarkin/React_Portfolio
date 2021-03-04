@@ -5,7 +5,7 @@ A remake of my professional portfolio using React.
 This project uses React, Bootstrap, and react-router-dom library.   
 
 ## Usage:
-An app to showcase personal information and other applications/projects. 
+An app to showcase personal information and other applications/projects that I've designed or contributed to. 
 
 ## Contributing:
 This project is open to contributions.
