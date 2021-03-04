@@ -25,7 +25,7 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Nav />
 
         <div style = {commonStyles.containerStyles} class="container">

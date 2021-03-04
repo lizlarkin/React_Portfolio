@@ -4,31 +4,31 @@ import Home from './Home'
 
 const Portfolio = () => {
 
-    const portfolioStyles = {
-        projectTitle: {
-            color: "#60a3bc",
-        },
+    // const portfolioStyles = {
+    //     projectTitle: {
+    //         color: "#60a3bc",
+    //     },
 
-        projectDesc: {
-            marginTop: "25px",
-            textAlign: "left"
-        },
+    //     projectDesc: {
+    //         marginTop: "25px",
+    //         textAlign: "left"
+    //     },
 
-        projectRow: {
-            border: "1px solid grey",
-            boxShadow: "0px 5px 10px 0px",
-            backgroundColor: "white",
-            borderRadius: "7px",
-            padding: "20px",
-            textAlign: "center",
-            marginBottom: "100px",
-            height: "250px",
-        },
+    //     projectRow: {
+    //         border: "1px solid grey",
+    //         boxShadow: "0px 5px 10px 0px",
+    //         backgroundColor: "white",
+    //         borderRadius: "7px",
+    //         padding: "20px",
+    //         textAlign: "center",
+    //         marginBottom: "100px",
+    //         height: "250px",
+    //     },
 
-        projectPicture: {
-            marginLeft: "100px",
-        }
-    }
+    //     projectPicture: {
+    //         marginLeft: "100px",
+    //     }
+    // }
 
     return (
             <>
