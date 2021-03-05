@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import { HashRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Nav from './Components/Nav/Nav';
 import About from './Pages/About';
@@ -25,10 +25,10 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter>
+      <HashRouter>
         <Nav />
 
-        <div style = {commonStyles.containerStyles} class="container">
+        <div style = {commonStyles.containerStyles} className="container">
 
         <Switch>
           <Route path="/Home" component={Home} />
@@ -41,10 +41,10 @@ function App() {
         </div>
 
         <nav className="navbar navbar-light bg-dark justify-content-center" style={commonStyles.footerStyles}>
-            <p id>&#169; copyright 2021</p>
+            <p>&#169; copyright 2021</p>
         </nav>
 
-      </BrowserRouter>
+      </HashRouter>
 
 
     </div>
