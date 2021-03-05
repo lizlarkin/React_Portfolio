@@ -22,7 +22,7 @@ const Main = () => {
 <div className="row" id = "main-row" style={mainHeadStyles.mainRowStyles}>
 
   <div className="col-sm-4" id = "main-left" style={mainHeadStyles.mainLeftStyles}>
-    <img src="/img/mainLeft.png" alt="Liz, Aaron, Donner wedding"/>
+    <img src="../img/mainLeft.png" alt="src/img/mainLeft.png"/>
   </div>
 
 
