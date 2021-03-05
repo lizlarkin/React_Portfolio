@@ -25,17 +25,17 @@ function App() {
 
   return (
     <div className="App">
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter>
         <Nav />
 
         <div style = {commonStyles.containerStyles} class="container">
 
         <Switch>
-          <Route path="/src/Pages/Home" component={Home} />
-          <Route path="/src/Pages/About" component={About} />
-          <Route path="/src/Pages/Links" component={Links} />
-          <Route path="/src/Pages/Portfolio" component={Portfolio} />
-          <Route path="/src/Pages/Resume" component={Resume} />
+          <Route path="/Home" component={Home} />
+          <Route path="/About" component={About} />
+          <Route path="/Links" component={Links} />
+          <Route path="/Portfolio" component={Portfolio} />
+          <Route path="/Resume" component={Resume} />
         </Switch>
 
         </div>

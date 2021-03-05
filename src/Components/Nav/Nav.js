@@ -16,7 +16,7 @@ const Nav = () => {
         <div>
             <nav style = {navStyles} className="navbar navbar-expand-lg navbar-light bg-light">
                 <div className="container-fluid">
-                    <Link to="/src/Pages/Home" className="navbar-brand">Liz Larkin Portfolio</Link>
+                    <Link to="/Home" className="navbar-brand">Liz Larkin Portfolio</Link>
                     {/* <a className="navbar-brand" href="/">Liz Larkin Portfolio</a> */}
                     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -24,16 +24,16 @@ const Nav = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li style={navStyles.linkStyles} className="nav-item">
-                                <Link to="/src/Pages/About">About</Link>
+                                <Link to="/About">About</Link>
                             </li>
                             <li style={navStyles.linkStyles} className="nav-item">
-                                <Link to="/src/Pages/Resume">Resume</Link>
+                                <Link to="/Resume">Resume</Link>
                             </li>
                             <li style={navStyles.linkStyles} className="nav-item">
-                                <Link to="/src/Pages/Portfolio">Portfolio</Link>
+                                <Link to="/Portfolio">Portfolio</Link>
                             </li>
                             <li style={navStyles.linkStyles} className="nav-item">
-                                <Link to="/src/Pages/Links">Links</Link>
+                                <Link to="/Links">Links</Link>
                             </li>
                         </ul>
                     </div>
