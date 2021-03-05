@@ -36,6 +36,7 @@ const Project = (props) => {
             <div className = "row">
             <div className = "col-sm-5">
             <img src={props.img} alt={props.alt}/>
+            
             </div>
             <div className = "col-sm-5 right" style={portfolioStyles.projectPicture}>
             <h6 style={portfolioStyles.projectDesc}> {props.desc} </h6>

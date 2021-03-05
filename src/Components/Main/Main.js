@@ -1,4 +1,7 @@
 import React from 'react'
+import mainLeft from "./mainLeft.png";
+import mainCenter from "./mainCenter.png";
+import mainRight from "./mainRight.png";
 
 const Main = () => {
 
@@ -22,17 +25,17 @@ const Main = () => {
 <div className="row" id = "main-row" style={mainHeadStyles.mainRowStyles}>
 
   <div className="col-sm-4" id = "main-left" style={mainHeadStyles.mainLeftStyles}>
-    <img src="../img/mainLeft.png" alt="src/img/mainLeft.png"/>
+    <img src={mainLeft} alt="Wedding Day"/>
   </div>
 
 
   <div className="col-sm-4" id = "main-center" style={mainHeadStyles.mainCenterStyles}>
-  <img src="/img/mainCenter.png" alt="Background to hold contact info"/>
+    <img src={mainCenter} alt="Information"/>
     <div id = "basic-info" style={mainHeadStyles.basicInfoStyles}></div>
   </div>
 
   <div className="col-sm-4" id = "main-right" style={mainHeadStyles.mainRightStyles}>
-    <img src="/img/mainRight.png" alt="Liz face"/>
+    <img src={mainRight} alt="Liz Face"/>
   </div>
 </div>
 

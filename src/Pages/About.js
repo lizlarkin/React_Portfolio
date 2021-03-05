@@ -1,5 +1,6 @@
 import React from 'react'
 import Main from '../Components/Main/Main'
+import elmo1 from "./elmo1.jpg";
 
 const About = () => {
 
@@ -30,7 +31,7 @@ const About = () => {
                 <p>
                   I have twice thrown out the ceremonial first pitch at an Oakland A's game -- each time dressed like Elmo.
                 </p>
-                <img src="/img/elmo1.jpg" alt="Elmo" id = "elmo-picture"/>
+                <img src={elmo1} alt="Elmo First Pitch"/>
             </div>
             <div className="col-sm-2"></div>
         </div> 

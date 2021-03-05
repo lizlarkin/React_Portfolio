@@ -1,5 +1,6 @@
 import React from 'react'
 import Home from './Home'
+import resumePDF from "./Elizabeth-Larkin-Resume.pdf";
 
 
 const Resume = () => {
@@ -39,7 +40,7 @@ const Resume = () => {
                 <h6>enlarkin@gmail.com</h6>
                 <h6>415-551-1700</h6>
                 <h6>San Francisco, CA</h6>
-                <a href = "/img/Elizabeth-Larkin-Resume.pdf">Download PDF Resume Here</a>  
+                <a href={resumePDF}>Download PDF Resume Here</a>  
               </div>
               <div className = "resume-heading" style={resumeStyles.heading}>
                 <h6>Highland Technology, Inc. <span className = 'dates' style={resumeStyles.dates}>2008-present</span></h6>
